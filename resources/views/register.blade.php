@@ -75,7 +75,7 @@
             </div>
           </div>
           <div class="input-group mb-3">
-            <input type="password" name="password" class="form-control" placeholder="Password" value=" {{old('password')}}">
+            <input type="password" name="password" class="form-control" placeholder="Password" value=" ">
               @error('password')
                 <div class="alert alert-danger">{{ $message }}</div>
               @enderror
