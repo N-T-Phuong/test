@@ -22,6 +22,7 @@ Route::get('/login', 'AuthController@login')->name('auth.login');
 Route::post('/logout', 'AuthController@logout')->name('auth.logout');
 Route::post('/login', 'AuthController@submitLogin')->name('auth.login-submit');
 Route::post('/register','AuthController@submitRegister')->name('auth.register-submit');
+
 //tạo nhanh user
 // Route::get('test', function (){
 //     $user = new \App\Models\User;

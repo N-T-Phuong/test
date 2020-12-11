@@ -12,6 +12,7 @@
 		  @if (Session('success'))
 		    <div class="alert alert-success">
 		      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+		      
 		      <strong>Thông báo!</strong> {{Session('success')}}
 		    </div>
 		  @endif
